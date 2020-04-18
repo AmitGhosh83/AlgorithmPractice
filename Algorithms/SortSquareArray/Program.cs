@@ -6,6 +6,7 @@ namespace SortSquareArray
     {
         static void Main(string[] args)
         {
+            //Array is sorted & can have -ve numbers
             int[] arr = new int[] { -6, -4, 1, 2, 3, 5 };
             //int[] arr = new int[] { 1, 2, 4 };
             var result = SortedArray(arr);
@@ -17,6 +18,7 @@ namespace SortSquareArray
             Console.WriteLine();
         }
 
+        //Produce a sqaured array which is also sorted
         public static int[] SortedArray(int[] inputarray)
         {
             int[] temp = new int[inputarray.Length];
